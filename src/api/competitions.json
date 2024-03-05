@@ -1,0 +1,19 @@
+[
+    {
+        "id": "1",
+        "name": "Hackathon",
+        "fees": "100",
+        "date": "01/04/2023",
+        "participants": 10,
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page"
+      },
+      {
+        "id": "2",
+        "name": "Meet & Greet",
+        "fees": "30",
+        "date": "01/04/2023",
+        "participants": 0,
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page"
+      }
+  ]
+  

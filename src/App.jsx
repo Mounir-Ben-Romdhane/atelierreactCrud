@@ -7,6 +7,10 @@ import Test from './Test'
 import Events from './Components/Events'
 import AddEvent from './Components/AddEvent'
 import UpdateEvent from './Components/EditEvent'
+import Compretitions from './Compretitions'
+import NotFound from './NotFound';
+import CompetitionDetails from './CompetitionDetails'
+import AddCompetition from './AddCompetition';
 
 function App() {
   
@@ -17,6 +21,18 @@ function App() {
         <Route
           path='/home'
           element={<Home />}
+        />
+        <Route
+          path='/competition'
+          element={<Compretitions />}
+        />
+        <Route
+          path='/competition/:id'
+          element={<CompetitionDetails />}
+        />
+        <Route
+          path='/add-competition'
+          element={<AddCompetition />}
         />
         <Route
           path='/eventsss/:id?'
@@ -30,6 +46,10 @@ function App() {
         element={<Events /> }/>
         <Route path="/add-event" element={<AddEvent />} />
         <Route path="/update-event/:id" element={<UpdateEvent />} />
+        <Route
+          path='/*'
+          element={<NotFound />}
+        />
       </Routes>
     </>
   )
